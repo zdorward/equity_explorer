@@ -9,7 +9,9 @@ Follow these steps to set up the project:
 1. Clone the repository to your local machine:
 
 
-```git clone https://github.com/yourusername/flask-stock-data.git```
+```
+git clone https://github.com/yourusername/flask-stock-data.git
+```
 2. Navigate to the project directory:
 ```bash cd flask-stock-data```
 
