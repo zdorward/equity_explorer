@@ -3,9 +3,12 @@
 import datetime
 import requests
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 # Alpha Vantage API Key (replace with your own key)
-API_KEY = 'ASHUTLCIZXEF9IRU'
+API_KEY = os.environ.get("API_KEY")
 
 # Function to fetch historical stock data
 def fetch_stock_data(symbol, interval='daily', output_size='full'):
