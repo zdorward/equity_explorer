@@ -6,7 +6,7 @@ This project is a Flask application for fetching and analyzing stock data.
 
 Follow these steps to set up the project:
 
-# 1. Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
 
 ```
