@@ -19,7 +19,7 @@ cd flask-stock-data
 ```
 
 4. Create a virtual environment to isolate project dependencies:
-# Using venv (Python 3)
+## Using venv (Python 3)
 ```
 python3 -m venv venv
 ```
