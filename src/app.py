@@ -1,6 +1,5 @@
 # app.py
 
-import yfinance as yf
 from flask import Flask, render_template, request
 from fetch_data import fetch_stock_data
 from visualizations import create_visualizations
