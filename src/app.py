@@ -2,11 +2,11 @@
 
 import yfinance as yf
 from flask import Flask, render_template, request
-from src.fetch_data import fetch_stock_data
-from src.visualizations import create_visualizations
+from fetch_data import fetch_stock_data
+from visualizations import create_visualizations
 import pandas as pd
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../templates')
 
 # Route for the home page
 @app.route('/', methods=['GET', 'POST'])
