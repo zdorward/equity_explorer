@@ -1,4 +1,4 @@
-# Flask Stock Data
+# Graph Guru
 
 This project is a Flask application for fetching and analyzing stock data. Please note to run this project, you will need to create a free API key with Alpha Vantage at https://www.alphavantage.co/support/#api-key. Your free key will allow for 25 API calls/day.
 
