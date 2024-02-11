@@ -43,7 +43,3 @@ To run the Flask application, execute the following command:
 ```
 python app.py
 ```
-Once the application is running, you can access it in your web browser at http://localhost:5000.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
