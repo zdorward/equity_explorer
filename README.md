@@ -1,6 +1,6 @@
 # Flask Stock Data
 
-This project is a Flask application for fetching and analyzing stock data.
+This project is a Flask application for fetching and analyzing stock data. Please note to run this project, you will need to create a free API key with Alpha Vantage at https://www.alphavantage.co/support/#api-key. Your free key will allow for 25 calls/day.
 
 ## Installation
 
@@ -42,6 +42,8 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
+
+5. Replace the API_KEY value in fetch_value.py with your own API key.
 
 ## Usage
 
