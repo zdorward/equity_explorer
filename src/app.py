@@ -2,8 +2,8 @@
 
 import yfinance as yf
 from flask import Flask, render_template, request
-from fetch_data import fetch_stock_data
-from visualizations import create_visualizations
+from src.fetch_data import fetch_stock_data
+from src.visualizations import create_visualizations
 import pandas as pd
 
 app = Flask(__name__)
