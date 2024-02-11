@@ -11,7 +11,7 @@ Follow these steps to set up the project:
 
 ```git clone https://github.com/yourusername/flask-stock-data.git```
 2. Navigate to the project directory:
-```cd flask-stock-data```
+```bash cd flask-stock-data```
 
 3. Create a virtual environment to isolate project dependencies:
 # Using venv (Python 3)
