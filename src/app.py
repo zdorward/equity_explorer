@@ -29,7 +29,7 @@ def home():
     
     # Check if stock_data is valid
     if stock_data is None:
-        error_message = f"Failed to fetch data for symbol: {symbol}. Please try again with a different symbol."
+        error_message = f"Failed to fetch data for symbol: {symbol}. This symbol may be invalid or you may have hit your API call limit."
         return render_template('index.html', error_message=error_message, symbol=symbol, tickers=sp500_tickers)
     
     # Create visualizations and save the plot to a file
