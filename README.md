@@ -43,7 +43,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-5. Replace the API_KEY value in fetch_value.py with your own API key.
+5. Rename '.env.example' to '.env' and add your API key value.
 
 ## Usage
 
